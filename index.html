@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Shenoy's Personal Website</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <nav id = "NavBar">
+        <img src = "images/Black and White Typography Personal Logo.png" > 
+        <a href = "#Education"> Education </a>
+        <a href = "#Extra"> Extracirriculars</a>
+        <a href = "#Projects"> Projects </a>
+        <a href = "#Contact"> Contact </a>
+        <button id="theme-toggle" style="margin-left:auto;font-size:1.2em;">🌙</button>
+    </nav>
+    <div id = "Start"> 
+        <h1> Rahul Shenoy's Personal Website </h1>
+ 
+    </div>
+    <div id = "Education"> 
+        <h1> Education </h1>
+        <ul>
+            <p> Elementary School: <a href = "https://www.lcps.org/legacy" target = "_blank" >Legacy Elementary</a></p>
+            <p> Middle School: <a href = "https://www.lcps.org/o/bam" target = "_blank"> Brambleton Middle </a></p>
+            <P> Currently a 10th grader in High School: <a href = "https://www.lcps.org/o/ihs" target = "_blank"> Independence High </a></P>
+            <p> I also attend a STEM Magnet High School: <a href = "https://www.lcps.org/o/acl" target = "_blank"> Academies of Loudoun </a></p>
+            <p> I want to pursue <strong>Bioinformatics </strong>or a <strong>Health Care </strong> related job</p>
+        </ul>
+        <img src = "images/Bio.jpg">
+    </div>  
+        <div id = "Extra" >
+        <h1> Extracirriculars</h1>
+            <div id = "Basketball">
+                <h3> Basketball </h3>
+                <p> - Played for 10 years </p>
+                <p> - Independence School Team </p>
+                <p> - Private Training </p>
+                <a href = "https://www.olympics.com/en/news/what-how-basketball-rules-scoring-techniques-olympics-players-positions" target = "_blank" ><img src = "images/bball.jpg"></a>
+            </div>
+            <div id = "DECA"> 
+                <h3> DECA </h3>
+                <p> - Business and Marketing Club </p>
+                <p> - Regional Finalist and States </p>
+                <a href = "https://www.deca.org/" target = "_blank"><img src = "images/DECA.png"></a>
+            </div>
+            <div id = "PASTA">
+                <h3> PASTA </h3>
+                <p> - Community Volunteering </p>
+                <p> - 2+ years</p>
+                <p> - From Students for Students </p>
+                <a href = "https://wearepasta.org/" target = "_blank"><img src = "images/Pasta.jpg"></a>
+            </div>
+        </div>
+        <div id = "Projects">
+            <h1> Projects </h1>
+            <div class = "media-scroller">
+                <div id = "MASH">
+                    <h3> Mash Game </h3>
+                    <p> All Star Code Week 1 Capstone Project</p>
+                    <a href = "/mash.js" download>Download link </a>
+                </div>
+                <div id = "IRP">
+                    <h3> IRP Business Project</h3>
+                    <p> The year round mock business start-up project I did at the Academies of Loudoun</p>
+                    <p> 10 minute Business pitch in front of mock investors and professional Business paper </p>
+                    <a href = "https://docs.google.com/presentation/d/1bceHRKpd-w02cCBUpBS_vyccCJGnsUKxUBVwiyZ5VDU/edit?usp=sharing" target = "_blank"> Link to Business Pitch Presentation</a>
+                </div>
+                <div id = "Bio">
+                    <h3> Ted Talk Presentation</h3>
+                    <p> Summer Research Biology Final Project </p>
+                    <p> About Ventricular Septal Defect </p>
+                    <p> 8 minute presentation with a large monitor in the Academies of Loudoun Auditorium with 40 peers, administrators, and teachers watching. </p>
+                    <a href = "https://docs.google.com/presentation/d/10PGWdtevawiNHF7tOMP7pXe_sw17v96H-xGM5BXAzuY/edit?usp=sharing" target = "_blank"> Link to Ted Talk Presentation </a>
+                </div>
+            </div>
+        </div>
+        <div id = "Quote">
+                <h2> I have not failed. I've just found <span id="counter">0</span> ways that won't work. </h2>
+                <h4> Thomas A. Edison </h4>
+                <img src = "images/mountain.jpg">
+        </div>
+        <div id = "Contact">
+            <h3> Contact </h3>
+            <form id="contact-form" action="https://formspree.io/f/meozdlro" method="POST">
+                <input type="text" name = "name" id="name" placeholder="Your Name" required>
+                <input type="email" name = "_replyto" id="email" placeholder="Your Email" required>
+                <textarea name = "message" id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+                <div id="form-msg"></div>
+            </form>
+            <br>
+            </br>
+            <div class = "icon-container">
+                <div class = "icon">
+                    <a href = "https://www.instagram.com/rahul9153991/" target = "_blank"> <img src = "images/insta.jpg" width = 75></a>
+                </div>
+                <div class = "icon">
+                    <a href = "https://t.snapchat.com/lcQyRo5i" target = "_blank"> <img src = "images/snap.png" width = 100></a>
+                </div>
+            </div>
+            <div id="Messages">
+                    <h4>Call or text me at <strong>+1 571-587-8649</strong></h4>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
